@@ -1,0 +1,11 @@
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 25% auto;
+    background-color: #1a2236;
+}
+
+
+
+
+

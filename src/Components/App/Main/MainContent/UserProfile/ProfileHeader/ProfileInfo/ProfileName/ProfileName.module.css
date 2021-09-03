@@ -1,0 +1,16 @@
+.profileName {
+    padding-left: 4rem;
+    flex: 1 1 auto;
+}
+
+.title{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.email {
+    color: #adb5bd;
+    font-size: 12px;
+    font-weight: 500;
+}

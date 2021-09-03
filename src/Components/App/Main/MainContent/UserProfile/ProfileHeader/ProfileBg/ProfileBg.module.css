@@ -1,0 +1,10 @@
+.profileBg {
+    flex: 1 1 auto;
+    overflow: hidden;
+    height: 200px; /*временно*/
+}
+
+.profileBg img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,26 @@
+.friends {
+    background-color: #293145;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 150px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    flex: 1 1 30%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    /*border-radius: 50%;*/
+}

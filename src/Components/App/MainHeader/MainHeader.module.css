@@ -1,0 +1,11 @@
+.mainHeader {
+    grid-area: header;
+    display: grid;
+    height: 100px;
+    grid-template-columns: 20% 1fr 20%;
+    background-color: #293145;
+}
+
+.list {
+    background-color: brown;
+}

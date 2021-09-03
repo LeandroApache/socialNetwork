@@ -1,0 +1,91 @@
+.messagesItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 50%;
+    /*height: 150px;*/
+    padding: 0 20px 20px;
+    /*background-color: #f2eeff;*/
+}
+
+
+
+.image {
+    /*height: 50px;*/
+    margin-right: 10px;
+    align-self: flex-end;
+    flex: 0 0 7%;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.content {
+    position: relative;
+    max-width: 65%;
+    width: fit-content;
+    margin: 0.5rem 0;
+    margin-right: 10px;
+    padding: 0.5rem .875rem;
+    flex: 1 1 100px;
+    border-radius: 1.25rem;
+    /*line-height: 1.25;*/
+    word-wrap: break-word;
+    order: -1;
+    background-color: #248bf5;
+    z-index: 3;
+}
+
+.content::after,
+.content::before {
+    position: absolute;
+    content: "";
+    bottom: -0.1rem;
+    height: 20px;
+    /*background-color: #fff;*/
+    /*color: #ffffff;*/
+    z-index: 2;
+}
+
+.content::before{
+    border-bottom-left-radius: 0.6rem 0.7rem;
+    border-right: 1rem solid #248bf5;
+    right: -0.35rem;
+    transform: translate(-1px, -0.1rem);
+}
+.content::after {
+    background-color: #293145;
+    border-bottom-left-radius: 0.5rem;
+    right: -40px;
+    transform:translate(-30px, -2px);
+    width: 10px;
+}
+
+.userName{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.text{
+    margin: 0;
+    padding: 0 30px 15px 0;
+    font-size: 12px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.time{
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.3);
+}

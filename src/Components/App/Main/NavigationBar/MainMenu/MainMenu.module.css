@@ -1,0 +1,10 @@
+.menu {
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: #ddd;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: #293145;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.5);
+}

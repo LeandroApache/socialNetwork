@@ -1,0 +1,13 @@
+.profileAvatar {
+    flex: 0 1 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileAvatar img {
+    width: 100%;
+    height: 100%;
+    /*border-radius: 50%;*/
+}
